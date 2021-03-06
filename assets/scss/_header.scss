@@ -1,0 +1,158 @@
+/* Header */
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.header-top {
+    padding: 33px 0px;
+    background-color: #ffffff;
+}
+
+.header-top__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    max-width: 170px;
+    width: 100%;
+    margin-right: 70px;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    width: 100%;
+}
+
+.header__contacts-items {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    
+    &:last-child {
+        margin-right: 0px;
+    }
+    
+    .decor-elem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        border: 1px solid #f7a707;
+        color: #f7a707;
+        margin-right: 25px;
+    }
+    
+    .text-block {
+        display: flex;
+        align-items: center;
+        
+        .item {
+            &:last-child:not(:first-child) {
+                margin-left: 15px;
+                padding-left: 15px;
+                border-left: 1px solid #222222;
+            }
+        }
+    }
+}
+
+.header-bottom {
+    background-color: rgba(18, 18, 18, .23);
+    color: #ffffff;
+    
+    .wrapper {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 80px;
+    text-transform: uppercase;
+    
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.header__nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    transition: opacity .3s;
+    
+    @media (hover:hover) {
+        &:hover {
+            opacity: .8;
+        }
+    }
+    
+    .text {
+        margin-bottom: 5px;
+    }
+    
+    .icon-drop-arrow {
+        font-size: 6px;
+    }
+}
+
+.header-communication {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.header-search {
+    margin-right: 15px;
+    
+    .search-button {
+        font-size: 16px;
+    }
+}
+
+.header-lang {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    
+    .separate {
+        margin: 0px 3px;
+    }
+}
+
+.header-lang__link {
+    transition: opacity .3s;
+    
+    @media (hover:hover) {
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+
+/* // Header */
+
