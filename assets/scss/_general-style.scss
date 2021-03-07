@@ -269,7 +269,12 @@ input[type=date]::-webkit-inner-spin-button {
             height: 2px;
             background-color: #f7a707;
         }
-        
+    }
+    
+    &.main-caption--m {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 30px;
     }
 }
 
@@ -421,9 +426,9 @@ input[type=date]::-webkit-inner-spin-button {
     &::before {
         content: "";
         position: absolute;
-        left: -20px;
+        left: 15px;
         bottom: 0px;
-        width: calc(100% + 40px);
+        width: calc(100% - 30px);
         height: 2px;
         background-color: #f7a707;
     }
@@ -432,6 +437,7 @@ input[type=date]::-webkit-inner-spin-button {
 .breadcrumbs__list {
     display: flex;
     align-items: center;
+    padding: 0px 20px;
 }
 
 .breadcrumbs__item {
