@@ -257,5 +257,31 @@
     }
 }
 
+.catalog-text {
+    font-size: 14px;
+    max-height: 215px;
+    padding-right: 20px;
+    margin-top: 50px;
+    overflow: auto;
+    scrollbar-color: #f7a707 #dedede;
+    scrollbar-width: thin;
+    
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #dedede;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: #f7a707;
+        
+        @media (hover:hover) {
+            &:hover {
+                background-color: rgba(#f7a707, .7);
+            }
+        }
+    }
+}
+
 
 /* //Catalog */
+
