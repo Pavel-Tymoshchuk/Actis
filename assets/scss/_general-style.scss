@@ -281,6 +281,11 @@ input[type=date]::-webkit-inner-spin-button {
     &.t-left {
         text-align: left;
     }
+    
+    &.small-indent {
+        line-height: 40px;
+        margin-bottom: 37px;
+    }
 }
 
 .general-more-link {
@@ -553,6 +558,11 @@ input[type=date]::-webkit-inner-spin-button {
 
 .faq-block {
     margin-top: 50px;
+    
+    .main-caption {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .faq-block__item {

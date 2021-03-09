@@ -5,11 +5,13 @@ module.exports = function(grunt) {
         js:[
             'assets/plugins/jquery/jquery-3.2.1.js',
             'assets/plugins/swiper/swiper-bundle.min.js',
+            'assets/plugins/fancybox/jquery.fancybox.min.js',
             'assets/js/global.js'
         ],
 
         css:[
             'assets/plugins/swiper/swiper-bundle.min.css',
+            'assets/plugins/fancybox/jquery.fancybox.min.css',
         ],
     };
 
